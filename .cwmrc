@@ -1,0 +1,9 @@
+borderwidth 0
+bind-key M-Return st
+bind-key MS-Return firefox
+bind-key M-d 'dmenu_run'
+bind-key M-q window-close
+bind-key M-f window-fullscreen
+bind-key MS-q quit
+bind-mouse M-1 window-move
+bind-mouse M-3 window-resize
