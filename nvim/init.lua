@@ -1,8 +1,11 @@
 require('plugs') -- load plugins
+require('bufferline').setup{}
+require('lualine').setup()
 
 vim.cmd('syn on') -- syntax highlighting
 vim.cmd('filetype plugin indent on') -- indentation
 vim.cmd('colo PaperColor') -- colorscheme
+vim.o.tgc = false
 vim.o.nu = true -- line numbers
 vim.o.hls = true -- hlsearch
 vim.o.is = true -- incsearch
